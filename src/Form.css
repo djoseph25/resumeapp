@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+/* ****** Profile Picture Stytling ******* */
+.img-holder {
+	height: 100px;
+	width: 96px;
+	overflow: hidden;
+}
+.img-holder img {
+	height: 100px;
+	width: 96px;
+	object-fit: cover;
+}
+#input[type='file']{
+display: none;
+}
+/* ****** Education******* */
+.education{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 18%;
+    padding-right: 85%;
+}
+.detail{
+   font-family: 'Josefin Sans', sans-serif;
+    padding-right: 75%; 
+    margin-top: 5%;
+}
+.Jobs{
+   font-family: 'Josefin Sans', sans-serif;
+    padding-right:70%; 
+    margin-top: 5%;
+}
+.labels{
+    padding-right: 60%;
+}
+
+#Row1 {
+	width: 100%;
+	background-color: rgb(236, 236, 236);
+	padding: 5%;
+}
+#label {
+	float: left;
+}
+.label{
+    float: left;
+}
+#MainRow {
+	padding:6px 30px;
+}
+
+#input1 {
+    width: 100%;
+    
+}
+/* #date{
+    width: 40%;
+    
+} */
+#Row2 {
+	width: 80%;
+	background-color: rgb(236, 236, 236);
+}
+#labels {
+    margin-right: 84px;
+    margin-top: -15%;
+}
+#textarea {
+    padding: 40px;
+    
+}
+
+#description{
+    	background-color: rgb(236, 236, 236);
+}
+
+#toggler{
+    float: left;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* ******** RESUME ******** */
+
+.Name{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Abril Fatface', cursive;
+    padding-bottom: 2%;
+    letter-spacing: 4px;
+   /* background-color: #00468B; */
+   /* color: white; */
+}
+.Contact{
+    font-size:12px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.Phone{
+    padding-left: 100px
+}
+.JobTitle{
+    font-size: 12px;
+}
